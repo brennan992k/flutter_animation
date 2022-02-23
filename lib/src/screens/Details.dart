@@ -23,7 +23,7 @@ class Details extends StatelessWidget {
                 child: Hero(
                     tag: 'trip-img-${trip.img}',
                     child: Image.asset(
-                      'images/${trip.img}',
+                      'assets/images/${trip.img}',
                       height: 360,
                       fit: BoxFit.cover,
                       alignment: Alignment.topCenter,
